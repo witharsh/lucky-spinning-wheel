@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinner-Quiz</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="container">
+            <div class="circle">
+                <div id="inner-circle">
+                    <span id="first">
+                        <div id="first-digit">
+                            <h1>1</h1>
+                        </div>
+                    </span>
+                    <span id="second">
+                        <div id="second-digit">
+                            <h1>2</h1>
+                        </div>
+                    </span>
+                    <span id="third">
+                        <div id="third-digit">
+                            <h1>3</h1>
+                        </div>
+                    </span>
+                    <span id="fourth">
+                        <div id="fourth-digit">
+                            <h1>4</h1>
+                        </div>
+                    </span>
+                    <span id="fifth">
+                        <div id="fifth-digit">
+                            <h1>5</h1>
+                        </div>
+                    </span>
+                    <span id="sixth">
+                        <div id="sixth-digit">
+                            <h1>6</h1>
+                        </div>
+                    </span>
+                    <span id="seventh">
+                        <div id="seventh-digit">
+                            <h1>7</h1>
+                        </div>
+                    </span>
+                    <span id="eight">
+                        <div id="eight-digit">
+                            <h1>8</h1>
+                        </div>
+                    </span>
+                </div>
+                <button id="start-btn" onclick="start()">SPIN</button>
+            </div>
+        </div>
+        <div id="arrow"><svg width="90px" height="100px" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 20" version="1.1" x="0px" y="0px">
+                <g stroke="rgba(0, 0, 0, 1)" stroke-width="0.5" fill="" fill-rule="evenodd">
+                    <polygon fill="#2f0e46" points="18 12 22 3 0 12 22 21" />
+                </g>
+            </svg></div>
+        <button id="try-again-btn" onclick="tryAgain()">Try Again</button>
+    </div>
+
+    <script src="assets/index.js"></script>
+</body>
+
+</html>
