@@ -182,7 +182,7 @@
 .winner-text {
   font-size: xx-large;
   position: absolute;
-  bottom: 40px;
+  transform: translate(0%,-450%);
   font-weight: 700;
   color: #debef5;
 }
@@ -197,7 +197,6 @@
   background-color: #ac5de6;
   border: none;
   border-radius: 7px;
-  box-shadow: 0px 8px 5px black;
   visibility: hidden;
   transition: box-shadow 0.2s;
 }
@@ -275,7 +274,7 @@
 
   #try-again-btn {
     font-size: large;
-    transform: translate(0%, 550%);
+    transform: translate(0%, 600%);
   }
   
   #arrow {
